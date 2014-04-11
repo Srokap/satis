@@ -1,0 +1,9 @@
+{
+  "name": "srokap_satis",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-shell": "~0.6.4",
+    "grunt-contrib-watch": "~0.6.1"
+  }
+}
