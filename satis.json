@@ -11,8 +11,35 @@
     {
       "type": "package",
       "package": {
+        "name": "till/faq",
+        "homepage": "http://community.elgg.org/plugins/1207209/0.3/faq",
+        "description": "A FAQ-Page",
+        "version": "0.3",
+        "type": "elgg-plugin",
+        "dist": {
+          "url": "http://community.elgg.org/plugins/download/1207210",
+          "type": "zip"
+        },
+        "source": {
+          "url": "https://github.com/Xilebo/elgg-faq.git",
+          "type": "git",
+          "reference": "master"
+        },
+        "authors": [
+          {
+            "name": "Till",
+            "homepage": "http://community.elgg.org/profile/till",
+            "role": "Maintainer"
+          }
+        ]
+      }
+    },
+    {
+      "type": "package",
+      "package": {
         "name": "ihayredinov/elgg_stars",
-        "version": "1.0",
+        "homepage": "http://community.elgg.org/plugins/1576498/1.0.0/stars",
+        "version": "1.0.0",
         "type": "elgg-plugin",
         "dist": {
           "url": "http://community.elgg.org/plugins/download/1576499",
@@ -30,10 +57,33 @@
             "role": "Maintainer"
           }
         ],
-        "keywords": ["elgg", "stars"],
-        "require": {
-          "tidypics/tidypics": "1.8.0-beta"
-        }
+        "keywords": ["elgg", "stars"]
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "ihayredinov/elgg_stars",
+        "homepage": "http://community.elgg.org/plugins/1576498/1.0.1/stars",
+        "version": "1.0.1",
+        "type": "elgg-plugin",
+        "dist": {
+          "url": "http://community.elgg.org/plugins/download/1577342",
+          "type": "zip"
+        },
+        "source": {
+          "url": "https://github.com/hypeJunction/elgg_stars.git",
+          "type": "git",
+          "reference": "master"
+        },
+        "authors": [
+          {
+            "name": "Ismayil Kharedinov",
+            "homepage": "http://community.elgg.org/profile/ihayredinov",
+            "role": "Maintainer"
+          }
+        ],
+        "keywords": ["elgg", "stars"]
       }
     },
     {
