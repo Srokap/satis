@@ -1,95 +1,92 @@
 {
-    "name": "Elgg plugins",
-    "homepage": "http://composer.i.srokap.pl",
-	"output-dir" : "web",
-    "repositories": [
-        { "type": "vcs", "url": "http://github.com/Srokap/code_review" },
-		{
-            "type": "package",
-            "package": {
-                "name": "ihayredinov/elgg_stars",
-                "version": "1.0",
-				"type": "elgg-plugin",
-                "dist": {
-                    "url": "http://community.elgg.org/plugins/download/1576499",
-                    "type": "zip"
-                },
-                "source": {
-                    "url": "https://github.com/hypeJunction/elgg_stars.git",
-                    "type": "git",
-					"reference": "master"
-                },
-				"authors": [
-					{
-						"name": "Nils Adermann",
-						"email": "naderman@naderman.de",
-						"homepage": "http://www.naderman.de",
-						"role": "Developer"
-					},
-					{
-						"name": "Jordi Boggiano",
-						"email": "j.boggiano@seld.be",
-						"homepage": "http://seld.be",
-						"role": "Developer"
-					}
-				],
-				"keywords": ["elgg", "stars"],
-				"require": {
-					"tidypics/tidypics": "1.8.0-beta"
-				}
-            }
+  "name": "Elgg plugins",
+  "homepage": "http://composer.i.srokap.pl",
+  "output-dir": "web",
+  "require-all": true,
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "http://github.com/Srokap/code_review"
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "ihayredinov/elgg_stars",
+        "version": "1.0",
+        "type": "elgg-plugin",
+        "dist": {
+          "url": "http://community.elgg.org/plugins/download/1576499",
+          "type": "zip"
         },
-		{
-            "type": "package",
-            "package": {
-                "name": "tidypics/tidypics",
-                "version": "1.8.0-rc1",
-				"type": "elgg-plugin",
-				"description": "Full-featured Photo Gallery plugin",
-                "dist": {
-                    "url": "http://community.elgg.org/plugins/download/978042",
-                    "type": "zip"
-                },
-				"require": {
-					"composer/installers": ">=1.0.8"
-				}
-            }
+        "source": {
+          "url": "https://github.com/hypeJunction/elgg_stars.git",
+          "type": "git",
+          "reference": "master"
         },
-		{
-            "type": "package",
-            "package": {
-                "name": "tidypics/tidypics",
-                "version": "1.8.0-beta",
-				"type": "elgg-plugin",
-                "description": "Full-featured Photo Gallery plugin",
-                "dist": {
-                    "url": "http://community.elgg.org/plugins/download/826716",
-                    "type": "zip"
-                },
-				"require": {
-					"composer/installers": ">=1.0.8"
-				}
-            }
-        },
-		{
-            "type": "package",
-            "package": {
-                "name": "smarty/smarty",
-                "version": "3.1.7",
-                "dist": {
-                    "url": "http://www.smarty.net/files/Smarty-3.1.7.zip",
-                    "type": "zip"
-                },
-                "source": {
-                    "url": "http://smarty-php.googlecode.com/svn/",
-                    "type": "svn",
-                    "reference": "tags/Smarty_3_1_7/distribution/"
-                },
-                "autoload": {
-                    "classmap": ["libs/"]
-                }
-            }
+        "authors": [
+          {
+            "name": "Ismayil Kharedinov",
+            "homepage": "http://community.elgg.org/profile/ihayredinov",
+            "role": "Maintainer"
+          }
+        ],
+        "keywords": ["elgg", "stars"],
+        "require": {
+          "tidypics/tidypics": "1.8.0-beta"
         }
-    ],
-    "require-all": true
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "tidypics/tidypics",
+        "version": "1.8.0-rc1",
+        "type": "elgg-plugin",
+        "description": "Full-featured Photo Gallery plugin",
+        "homepage": "http://community.elgg.org/plugins/385077/1.8.0%20rc1/tidypics-photo-gallery-plugin",
+        "dist": {
+          "url": "http://community.elgg.org/plugins/download/978042",
+          "type": "zip"
+        },
+        "require": {
+          "composer/installers": ">=1.0.8"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "tidypics/tidypics",
+        "version": "1.8.0-beta",
+        "type": "elgg-plugin",
+        "description": "Full-featured Photo Gallery plugin",
+        "dist": {
+          "url": "http://community.elgg.org/plugins/download/826716",
+          "type": "zip"
+        },
+        "require": {
+          "composer/installers": ">=1.0.8"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "smarty/smarty",
+        "version": "3.1.7",
+        "dist": {
+          "url": "http://www.smarty.net/files/Smarty-3.1.7.zip",
+          "type": "zip"
+        },
+        "source": {
+          "url": "http://smarty-php.googlecode.com/svn/",
+          "type": "svn",
+          "reference": "tags/Smarty_3_1_7/distribution/"
+        },
+        "autoload": {
+          "classmap": ["libs/"]
+        }
+      }
+    }
+  ]
 }
