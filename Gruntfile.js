@@ -12,7 +12,7 @@ module.exports = function(grunt) {
       }
     },
     watch: {
-      files: ['satis.json'],
+      files: ['satis.json', 'views/*'],
       tasks: ['shell:build']
     }
   });

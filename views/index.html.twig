@@ -3,18 +3,22 @@
 <head>
     <meta charset="utf-8" />
     <meta name="robots" content="noindex,nofollow" />
+
     <title>{{ name }} Composer Repository</title>
     <style type="text/css">
     {% include 'styles.css' %}
     </style>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+
 </head>
 <body>
 
-    <div id="doc" class="yui-t7">
+    <div id="doc" class="container">
         <div id="hd">
             <h1>{{ name }} Composer Repository</h1>
             {% if description %}
-                <p>{{ description }}</p>
+                <p>{{ description | raw }}</p>
             {% endif %}
         </div>
         <div id="bd">
@@ -30,7 +34,7 @@
 }</code></pre>
 
                 Filter by package name:
-                <input type="text" id="search" autocomplete="off" autofocus />
+                <input type="text" id="search" autocomplete="off" autofocus class="form-control input-lg" />
 
                 {% for name, package in packages %}
                     <h3 id="{{ package.highest.name }}">{{ package.highest.name }}</h3>
@@ -78,8 +82,8 @@
                                 {% endfor %}
                             </td>
                         </tr>
-                        <tr>
-                            <th>Required by</th>
+                            <tr>
+                                <th>Required by</th>
                             <td>
                                 {% set package_dependencies = attribute(dependencies, name) %}
                                 {% if package_dependencies|length %}
@@ -120,5 +124,6 @@
         }).focus();
     });
     </script>
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 </body>
 </html>
