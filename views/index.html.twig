@@ -17,9 +17,12 @@
 
     <div class="container">
         <div id="hd">
-            <h1>{{ name }} Composer Repository</h1>
+            <h1 class="page-header">{{ name }} Composer Repository</h1>
             {% if description %}
-                <p class="alert alert-warning"><span class="glyphicon glyphicon-warning-sign"></span> {{ description | raw }}</p>
+                <p class="alert alert-warning fade in">
+                    <button type="button" class="close" data-dismiss="alert">×</button>
+                    <span class="glyphicon glyphicon-warning-sign"></span> {{ description | raw }}
+                </p>
             {% endif %}
         </div>
         <div id="bd">
@@ -34,7 +37,7 @@
     ]
 }</code></pre>
 
-                <p>
+                <div>
                     <label class="control-label" for="search">Filter by package name:</label>
                     <div class="input-group input-group-lg">
                         <span class="input-group-addon">
@@ -42,7 +45,9 @@
                         </span>
                         <input type="text" id="search" autocomplete="off" autofocus class="form-control" />
                     </div>
-                </p>
+                </div>
+
+                <br />
 
                 {#<p>#}
                     {#<div class="form-group has-feedback">#}
@@ -53,9 +58,9 @@
                 {#</p>#}
 
                 {% for name, package in packages %}
-                    <div id="{{ package.highest.name }}" class="package-row panel panel-default">
+                    <div id="{{ package.highest.name }}" class="package-row panel panel-default" data-name="{{ package.highest.name }}">
                         <div class="panel-heading">
-                            <h3>{{ package.highest.name }}</h3>
+                            <big><strong>{{ package.highest.name }}</strong></big>
                         </div>
                         {% if package.highest.description %}
                             <div class="panel-body">
@@ -129,14 +134,12 @@
     <script>
     {% include 'jquery-2.0.0.js' %}
     $(function(){
-        var packages = $('h3').each(function(){
-            $(this).data('row', $(this).parents('.package-row'));
-        });
+        var packages = $('[data-name].package-row');
         $('input#search').keyup(function(){
             var needle = $(this).val().toLowerCase(), show;
             packages.each(function(){
                 show = $(this).text().toLowerCase().indexOf(needle) != -1;
-                $(this).data('row').toggle(show);
+                $(this).toggle(show);
             });
         }).focus();
     });
