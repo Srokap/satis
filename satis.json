@@ -1,7 +1,7 @@
 {
     "name": "Elgg plugins",
     "homepage": "http://composer.i.srokap.pl",
-    "description": "For details of usage, have a look at <a href=\"http://community.elgg.org/pages/view/1630158/experimental-community-plugins-mirror-as-composer-repository\">this instruction</a>",
+    "description": "For details of usage, have a look at <a class=\"alert-link\" href=\"http://community.elgg.org/pages/view/1630158/experimental-community-plugins-mirror-as-composer-repository\">this instruction</a>",
     "output-dir": "web",
     "require-all": true,
     "repositories": [

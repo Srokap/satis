@@ -7,7 +7,8 @@ module.exports = function(grunt) {
       build: {
         command: 'php bin/satis build satis.json',
         options: {
-          stdout: true
+          stdout: true,
+          stderr: true
         }
       }
     },
