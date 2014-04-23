@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html ng-app="elggComposerStats">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8" />
+  <meta name="robots" content="noindex,nofollow" />
+
+  <title>Elgg plugins Composer Repository - Stats</title>
+  <style type="text/css">
+    .package-row { overflow: hidden }
+    table th { width: 20% }
+  </style>
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+
+  <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+  <script type="text/javascript">
+
+    // Load the Visualization API and the piechart package.
+    google.load('visualization', '1.0', {'packages':['corechart']});
+  </script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular.min.js" charset="utf-8"></script>
+</head>
+
+<body ng-controller="elggComposerStatsController">
+  <div class="container">
+    <div id="hd">
+      <h1 class="page-header">Elgg plugins Composer Repository - Stats</h1>
+    </div>
+
+    <div class="col-md-3">
+      <div class="panel panel-default">
+        <div class="panel-heading">Basic stats</div>
+        <div class="panel-body">
+          <dl class="dl-horizontal">
+            <dt>Packages count</dt>
+            <dd>{{stats.pkgCnt}}</dd>
+            <dt>Versions count</dt>
+            <dd>{{stats.pkgVersionCnt}}</dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="panel panel-default">
+        <div class="panel-heading">Compatibility distribution</div>
+        <div class="panel-body">
+          <dl class="dl-horizontal">
+            <dt ng-repeat-start="(key,item) in stats.compatArr">{{key}}</dt>
+            <dd ng-repeat-end>{{item}}</dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <div class="panel panel-default">
+        <div class="panel-heading">Compatibility distribution chart</div>
+        <div id="distPieChart" class="panel-body">
+
+        </div>
+      </div>
+    </div>
+
+    <!--<div class="col-md-12">-->
+      <!--<div class="panel panel-default">-->
+        <!--<div class="panel-heading">Plot</div>-->
+        <!--<div class="panel-body">-->
+
+        <!--</div>-->
+      <!--</div>-->
+    <!--</div>-->
+
+  </div>
+  <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript">
+
+
+    angular.module('elggComposerStats', [])
+      .controller('elggComposerStatsController', function($scope){
+        $scope.stats = {};
+
+        /**
+         * Draw compatibility pie chart graph
+         *
+         * @param compatArr
+         */
+        var drawPieChart = function(compatArr) {
+
+          var googleData = new google.visualization.DataTable();
+          googleData.addColumn('string', 'Rank');
+          googleData.addColumn('number', 'Count');
+
+          var data = $.map(compatArr, function(e, i){
+            return [[i, e]];
+          });
+          console.log(data);
+          data.sort(function(a, b){
+            return ((a[0] < b[0]) ? -1 : ((a[0] > b[0]) ? 1 : 0));
+          });
+          console.log(data);
+          googleData.addRows(data);
+
+          // Set chart options
+          var options = {
+            width: '100%',
+            height: 350,
+            sliceVisibilityThreshold: 1/3720
+          };
+
+          var chart = new google.visualization.PieChart(document.getElementById('distPieChart'));
+          chart.draw(googleData, options);
+        }
+
+        var data = $.get('packages.json', function(data){
+          var packages = data.packages;
+
+          var versionCnt = 0;
+          var compatArr = {
+
+          };
+
+          $.each(packages, function(packageName, packageData){
+            $.each(packageData, function(versionName, versionData){
+              versionCnt++;
+              if (versionData.require !== undefined) {
+                var requiredVersion = versionData.require['elgg/elgg'];
+                if (requiredVersion === undefined) {
+                  requiredVersion = 'Unknown';
+                } else {
+                  requiredVersion = requiredVersion.replace(',', '.');
+                }
+
+                if (compatArr[requiredVersion] === undefined) {
+                  compatArr[requiredVersion] = 1;
+                } else {
+                  compatArr[requiredVersion]++;
+                }
+              }
+            });
+          });
+
+          $scope.$apply(function () {
+            $scope.stats.pkgCnt = Object.keys(packages).length;
+            $scope.stats.pkgVersionCnt = versionCnt;
+            $scope.stats.compatArr = compatArr;
+            drawPieChart(compatArr);
+          });
+        });
+      }
+    );
+  </script>
+  <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+</body>
+</html>
