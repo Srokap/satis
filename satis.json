@@ -139,7 +139,32 @@
         }
       }
     },
-       {
+        {
+            "type": "package",
+            "package": {
+                "name": "Facyla/adf_registration_filter",
+                "homepage": "http://departements-en-reseaux.fr/",
+                "version": "0.2.2",
+                "type": "elgg-plugin",
+                "description": "This plugins adds a registration filter for configured email domains",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/1435126",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Facyla",
+                        "homepage": "http://community.elgg.org/profile/Facyla",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.8"
+                }
+            }
+        },
+        {
             "type": "package",
             "package": {
                 "name": "rivervanrain/contactus",
@@ -255,6 +280,56 @@
                     {
                         "name": "Lauri",
                         "homepage": "http://community.elgg.org/profile/lauri.korpela",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.8"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "sergiy.kamolov/backup-tool",
+                "homepage": "http://www.kamolov.org.ua",
+                "version": "1.1",
+                "type": "elgg-plugin",
+                "description": "Plugin for creating and managing backups.",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/1373857",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Sergiy Kamolov",
+                        "homepage": "http://community.elgg.org/profile/sergiy.kamolov",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.8"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "sergiy.kamolov/backup-tool",
+                "homepage": "http://www.kamolov.org.ua",
+                "version": "1.0",
+                "type": "elgg-plugin",
+                "description": "Plugin for creating and managing backups.",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/1329897",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Sergiy Kamolov",
+                        "homepage": "http://community.elgg.org/profile/sergiy.kamolov",
                         "role": "Maintainer"
                     }
                 ],
@@ -1080,6 +1155,31 @@
                     {
                         "name": "Jeff Tilson",
                         "homepage": "http://community.elgg.org/profile/jrtilson",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.8"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "till/faq",
+                "homepage": "https://github.com/Xilebo/elgg-faq",
+                "version": "0.3",
+                "type": "elgg-plugin",
+                "description": "A FAQ-Page",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/1207210",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Till",
+                        "homepage": "http://community.elgg.org/profile/till",
                         "role": "Maintainer"
                     }
                 ],
@@ -10738,6 +10838,31 @@
         {
             "type": "package",
             "package": {
+                "name": "izap/izap-diskquota",
+                "homepage": "http://www.pluginlotto.com/store/product/tarun/15558/izap-diskquota-free-elgg-plugin",
+                "version": "1.2",
+                "type": "elgg-plugin",
+                "description": "This plugin allow you to control disk space for all of your users.",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/874531",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "i Z A P",
+                        "homepage": "http://community.elgg.org/profile/izap",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.8"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
                 "name": "jeabakker/file_tools",
                 "homepage": "http://www.coldtrick.com/",
                 "version": "1.1.2",
@@ -11913,6 +12038,56 @@
         {
             "type": "package",
             "package": {
+                "name": "sembrestels/infinite_scroll",
+                "homepage": "https://lorea.org",
+                "version": "0.3",
+                "type": "elgg-plugin",
+                "description": "Loads automatically the next page of a list when you reach the end of it.",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/870687",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "sem",
+                        "homepage": "http://community.elgg.org/profile/sembrestels",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.8"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "sembrestels/infinite_scroll",
+                "homepage": "https://lorea.org",
+                "version": "0.2",
+                "type": "elgg-plugin",
+                "description": "Loads automatically the next page of a list when you reach the end of it.",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/869770",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "sem",
+                        "homepage": "http://community.elgg.org/profile/sembrestels",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.8"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
                 "name": "iionly/faq",
                 "homepage": "https://github.com/iionly",
                 "version": "1.8.2",
@@ -12251,6 +12426,81 @@
                     {
                         "name": "Brett",
                         "homepage": "http://community.elgg.org/profile/brett.profitt",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.8"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "ripcord/veeplay",
+                "homepage": "http://designedbyroger.com",
+                "version": "1.8.3.3",
+                "type": "elgg-plugin",
+                "description": "Provides a shell to play audio and video files with a single player.",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/1088321",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Rip",
+                        "homepage": "http://community.elgg.org/profile/ripcord",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.8"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "ripcord/veeplay",
+                "homepage": "http://designedbyroger.com",
+                "version": "1.8.3.2",
+                "type": "elgg-plugin",
+                "description": "Provides a shell to play audio and video files with a single player.",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/868383",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Rip",
+                        "homepage": "http://community.elgg.org/profile/ripcord",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.8"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "ripcord/veeplay",
+                "homepage": "http://designedbyroger.com",
+                "version": "1.8.3",
+                "type": "elgg-plugin",
+                "description": "Provides a shell to play audio and video files with a single player.",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/868270",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Rip",
+                        "homepage": "http://community.elgg.org/profile/ripcord",
                         "role": "Maintainer"
                     }
                 ],
@@ -12976,6 +13226,31 @@
                     {
                         "name": "Casimiro Carvalho",
                         "homepage": "http://community.elgg.org/profile/casimirorocha",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.8"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "Flexx/gem_theme",
+                "homepage": "http://geminixx.com",
+                "version": "1.0",
+                "type": "elgg-plugin",
+                "description": "This is a simple theme that makes use of CSS3",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/861573",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Flexx",
+                        "homepage": "http://community.elgg.org/profile/Flexx",
                         "role": "Maintainer"
                     }
                 ],
@@ -16013,6 +16288,31 @@
         {
             "type": "package",
             "package": {
+                "name": "sembrestels/magic_topbar",
+                "homepage": "https://lorea.cc",
+                "version": "0.2.1",
+                "type": "elgg-plugin",
+                "description": "This plugin shows topbar all time, improving usability.",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/835015",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "sem",
+                        "homepage": "http://community.elgg.org/profile/sembrestels",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.8"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
                 "name": "iionly/gifts",
                 "homepage": "https://github.com/iionly",
                 "version": "1.8.1",
@@ -16026,6 +16326,31 @@
                     {
                         "name": "iionly",
                         "homepage": "http://community.elgg.org/profile/iionly",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.8"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "sembrestels/gifts",
+                "homepage": "https://lorea.cc",
+                "version": "0.2",
+                "type": "elgg-plugin",
+                "description": "Adds a widget in friends profile to send gifts to your friends",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/834830",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "sem",
+                        "homepage": "http://community.elgg.org/profile/sembrestels",
                         "role": "Maintainer"
                     }
                 ],
@@ -16501,6 +16826,56 @@
                     {
                         "name": "Flexx",
                         "homepage": "http://community.elgg.org/profile/Flexx",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.8"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "sembrestels/group_alias",
+                "homepage": "https://lorea.cc",
+                "version": "1.8",
+                "type": "elgg-plugin",
+                "description": "Group nice urls with an alphanumeric unique identifier.",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/833662",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "sem",
+                        "homepage": "http://community.elgg.org/profile/sembrestels",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.8"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "sembrestels/relatedgroups",
+                "homepage": "lorea.cc",
+                "version": "1.1",
+                "type": "elgg-plugin",
+                "description": "Group admins can link their group with similar ones.",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/833540",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "sem",
+                        "homepage": "http://community.elgg.org/profile/sembrestels",
                         "role": "Maintainer"
                     }
                 ],
@@ -18738,6 +19113,56 @@
         {
             "type": "package",
             "package": {
+                "name": "sembrestels/videolist",
+                "homepage": "lorea.org",
+                "version": "1.8-beta2",
+                "type": "elgg-plugin",
+                "description": "The classic videolist upgraded to Elgg 1.8",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/818339",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "sem",
+                        "homepage": "http://community.elgg.org/profile/sembrestels",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.8"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "sembrestels/videolist",
+                "homepage": "lorea.org",
+                "version": "1.8-beta",
+                "type": "elgg-plugin",
+                "description": "The classic videolist upgraded to Elgg 1.8",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/814896",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "sem",
+                        "homepage": "http://community.elgg.org/profile/sembrestels",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.8"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
                 "name": "_13net/phloor_menu_sooperfish_theme_theme5",
                 "homepage": "http://phloor.13net.at",
                 "version": "11.11.10",
@@ -19088,6 +19513,31 @@
         {
             "type": "package",
             "package": {
+                "name": "efault/etherpad",
+                "homepage": "",
+                "version": "0.5",
+                "type": "elgg-plugin",
+                "description": "Etherpad lite integration for elgg 1.8",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/810760",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "efault",
+                        "homepage": "http://community.elgg.org/profile/efault",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.8"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
                 "name": "ihayredinov/hypeAlive",
                 "homepage": "www.hypeJunction.com",
                 "version": "1.8.5",
@@ -19182,6 +19632,81 @@
                 "require": {
                     "composer/installers": ">=1.0.8",
                     "elgg/elgg": "~1.8"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "robezy/stackoverflow",
+                "homepage": "https://github.com/spesalvi/stackoverflow-elgg-plugin",
+                "version": "1.2",
+                "type": "elgg-plugin",
+                "description": "plugin that allows to search and import stackoverflow question and answers",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/810709",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "robert",
+                        "homepage": "http://community.elgg.org/profile/robezy",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.7"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "robezy/stackoverflow",
+                "homepage": "https://github.com/spesalvi/stackoverflow-elgg-plugin",
+                "version": "1.1",
+                "type": "elgg-plugin",
+                "description": "plugin that allows to search and import stackoverflow question and answers",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/810662",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "robert",
+                        "homepage": "http://community.elgg.org/profile/robezy",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.7"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "robezy/stackoverflow",
+                "homepage": "https://github.com/spesalvi/stackoverflow-elgg-plugin",
+                "version": "1",
+                "type": "elgg-plugin",
+                "description": "plugin that allows to search and import stackoverflow question and answers",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/809513",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "robert",
+                        "homepage": "http://community.elgg.org/profile/robezy",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.7"
                 }
             }
         },
@@ -19326,6 +19851,31 @@
                     {
                         "name": "iionly",
                         "homepage": "http://community.elgg.org/profile/iionly",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.8"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "sembrestels/dokuwiki",
+                "homepage": "https://lorea.cc/",
+                "version": "1.4.2",
+                "type": "elgg-plugin",
+                "description": "Adds wikis for groups, and integrates the user and permission system of elgg.",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/803579",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "sem",
+                        "homepage": "http://community.elgg.org/profile/sembrestels",
                         "role": "Maintainer"
                     }
                 ],
@@ -20238,7 +20788,7 @@
         {
             "type": "package",
             "package": {
-                "name": "chetanvarshney/facebook_connect-1.0",
+                "name": "chetanvarshney/facebook_connect",
                 "homepage": "",
                 "version": "1.0",
                 "type": "elgg-plugin",
@@ -20988,6 +21538,106 @@
         {
             "type": "package",
             "package": {
+                "name": "sembrestels/group_operators",
+                "homepage": "https://lorea.org/",
+                "version": "1.3.2",
+                "type": "elgg-plugin",
+                "description": "Allow to set various operators (admins) in a group",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/829953",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "sem",
+                        "homepage": "http://community.elgg.org/profile/sembrestels",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.8"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "sembrestels/group_operators",
+                "homepage": "https://lorea.org/",
+                "version": "1.3.1",
+                "type": "elgg-plugin",
+                "description": "Allow to set various operators (admins) in a group",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/819448",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "sem",
+                        "homepage": "http://community.elgg.org/profile/sembrestels",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.8"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "sembrestels/group_operators",
+                "homepage": "https://lorea.org/",
+                "version": "1.3",
+                "type": "elgg-plugin",
+                "description": "Allow to set various operators (admins) in a group",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/817991",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "sem",
+                        "homepage": "http://community.elgg.org/profile/sembrestels",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.8"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "sembrestels/group_operators",
+                "homepage": "https://lorea.org/",
+                "version": "1.2",
+                "type": "elgg-plugin",
+                "description": "Allow to set various operators (admins) in a group",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/791867",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "sem",
+                        "homepage": "http://community.elgg.org/profile/sembrestels",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.8"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
                 "name": "iionly/agerestriction",
                 "homepage": "https://github.com/iionly",
                 "version": "1.1",
@@ -21651,6 +22301,31 @@
                     {
                         "name": "Ismayil Khayredinov",
                         "homepage": "http://community.elgg.org/profile/ihayredinov",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.7"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "fvega/facebookservice",
+                "homepage": "www.dti.ugto.mx",
+                "version": "1.0",
+                "type": "elgg-plugin",
+                "description": "Enables Facebook integration in supported plugins.",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/784610",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Fernando Vega",
+                        "homepage": "http://community.elgg.org/profile/fvega",
                         "role": "Maintainer"
                     }
                 ],
@@ -22813,6 +23488,56 @@
         {
             "type": "package",
             "package": {
+                "name": "liri2/group_moderate",
+                "homepage": "",
+                "version": "1.1",
+                "type": "elgg-plugin",
+                "description": "This plugin allows to moderate group creations, so that, every user is allowed to create groups, and groups entities are indeed created though they immediately turn disabled.",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/760638",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Liran Tal",
+                        "homepage": "http://community.elgg.org/profile/liri2",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.5"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "liri2/campaign_userpoints",
+                "homepage": "",
+                "version": "1.2",
+                "type": "elgg-plugin",
+                "description": "",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/760626",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Liran Tal",
+                        "homepage": "http://community.elgg.org/profile/liri2",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.5"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
                 "name": "liri2/profile_meter",
                 "homepage": "",
                 "version": "1.0",
@@ -23640,6 +24365,31 @@
             "package": {
                 "name": "Facyla/resume",
                 "homepage": "http://www.formavia.fr/",
+                "version": "1.5.3",
+                "type": "elgg-plugin",
+                "description": "Resume - structured Europass CV tool + visualization",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/1193850",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Facyla",
+                        "homepage": "http://community.elgg.org/profile/Facyla",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.6"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "Facyla/resume",
+                "homepage": "http://www.formavia.fr/",
                 "version": "1.4.5",
                 "type": "elgg-plugin",
                 "description": "Resume - structured Europass CV tool + visualization",
@@ -23801,6 +24551,31 @@
                     {
                         "name": "Ismayil Khayredinov",
                         "homepage": "http://community.elgg.org/profile/ihayredinov",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.7"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "fvega/xmpplogin",
+                "homepage": "http://dti.ugto.mx",
+                "version": "0.1",
+                "type": "elgg-plugin",
+                "description": "A simple plugin to authenticate users via XMPP with Openfire Server",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/739176",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Fernando Vega",
+                        "homepage": "http://community.elgg.org/profile/fvega",
                         "role": "Maintainer"
                     }
                 ],
@@ -24682,6 +25457,31 @@
                 "require": {
                     "composer/installers": ">=1.0.8",
                     "elgg/elgg": "~1.7"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "anirupdutta/foursquare",
+                "homepage": "http://sync.heybuddy.in/",
+                "version": "1.8",
+                "type": "elgg-plugin",
+                "description": "A widget to display users latest checkins on foursquare",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/733113",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "anirupdutta",
+                        "homepage": "http://community.elgg.org/profile/anirupdutta",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.8"
                 }
             }
         },
@@ -26788,6 +27588,31 @@
         {
             "type": "package",
             "package": {
+                "name": "krasi/openmeetings",
+                "homepage": "http://www.lpi-francophonie.org/spip.php?article263",
+                "version": "0.1",
+                "type": "elgg-plugin",
+                "description": "Integration with OpenMeetings",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/715070",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "krasi",
+                        "homepage": "http://community.elgg.org/profile/krasi",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.6"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
                 "name": "aszepeshazi/content_debugger",
                 "homepage": "",
                 "version": "1.1.0",
@@ -27426,6 +28251,31 @@
                     {
                         "name": "Jazz",
                         "homepage": "http://community.elgg.org/profile/Jazz",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.7"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "pragides/free_html_profile_widget",
+                "homepage": "",
+                "version": "1.0.0",
+                "type": "elgg-plugin",
+                "description": "A widget for allowing Free HTML widget in the profile and dashboard pages",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/710621",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Paolo Pragides",
+                        "homepage": "http://community.elgg.org/profile/pragides",
                         "role": "Maintainer"
                     }
                 ],
@@ -28990,6 +29840,81 @@
             "package": {
                 "name": "Facyla/cmspages",
                 "homepage": "http://id.facyla.net/",
+                "version": "0.9.6",
+                "type": "elgg-plugin",
+                "description": "Provides admin with unlimited static pages, with access rights, multi-level templating system and dynamic content",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/1435237",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Facyla",
+                        "homepage": "http://community.elgg.org/profile/Facyla",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.8"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "Facyla/cmspages",
+                "homepage": "http://id.facyla.net/",
+                "version": "0.8.1",
+                "type": "elgg-plugin",
+                "description": "Provides admin with unlimited static pages, with access rights, multi-level templating system and dynamic content",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/1189123",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Facyla",
+                        "homepage": "http://community.elgg.org/profile/Facyla",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.8"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "Facyla/cmspages",
+                "homepage": "http://id.facyla.net/",
+                "version": "0.8",
+                "type": "elgg-plugin",
+                "description": "Provides admin with unlimited static pages, with access rights, multi-level templating system and dynamic content",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/863146",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Facyla",
+                        "homepage": "http://community.elgg.org/profile/Facyla",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.8"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "Facyla/cmspages",
+                "homepage": "http://id.facyla.net/",
                 "version": "0.6.2",
                 "type": "elgg-plugin",
                 "description": "Provides admin with unlimited static pages, with access rights, multi-level templating system and dynamic content",
@@ -29376,6 +30301,56 @@
                     {
                         "name": "emdagon",
                         "homepage": "http://community.elgg.org/profile/emdagon",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.7"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "wer2chosen/dynmSpot",
+                "homepage": "",
+                "version": "1.01",
+                "type": "elgg-plugin",
+                "description": "Dynamic Spotlight",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/679134",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "wer2chosen",
+                        "homepage": "http://community.elgg.org/profile/wer2chosen",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.7"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "wer2chosen/dynmSpot",
+                "homepage": "",
+                "version": "1.0",
+                "type": "elgg-plugin",
+                "description": "Dynamic Spotlight",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/679112",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "wer2chosen",
+                        "homepage": "http://community.elgg.org/profile/wer2chosen",
                         "role": "Maintainer"
                     }
                 ],
@@ -31788,6 +32763,81 @@
         {
             "type": "package",
             "package": {
+                "name": "codelust/sharedly",
+                "homepage": "",
+                "version": "1.1",
+                "type": "elgg-plugin",
+                "description": "Lightweight link sharing module, with voting support from the updown module",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/602276",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Shyam Somanadh",
+                        "homepage": "http://community.elgg.org/profile/codelust",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.7"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "codelust/sharedly",
+                "homepage": "",
+                "version": "1.0",
+                "type": "elgg-plugin",
+                "description": "Lightweight link sharing module, with voting support from the updown module",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/600794",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Shyam Somanadh",
+                        "homepage": "http://community.elgg.org/profile/codelust",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.7"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "codelust/updown",
+                "homepage": "",
+                "version": "1.0",
+                "type": "elgg-plugin",
+                "description": "Module for developers to vote up/vote down entities",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/600792",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Shyam Somanadh",
+                        "homepage": "http://community.elgg.org/profile/codelust",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.7"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
                 "name": "m_welkers/businesscard",
                 "homepage": "",
                 "version": "1.0",
@@ -32363,6 +33413,31 @@
         {
             "type": "package",
             "package": {
+                "name": "izap/izap-ecommerce",
+                "homepage": "http://www.pluginlotto.com",
+                "version": "1.0",
+                "type": "elgg-plugin",
+                "description": "E-commerce plugin for elgg",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/594162",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "i Z A P",
+                        "homepage": "http://community.elgg.org/profile/izap",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.7"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
                 "name": "gillie/editor_account",
                 "homepage": "http://www.perjensen-online.dk/",
                 "version": "0.2",
@@ -32601,6 +33676,31 @@
                     {
                         "name": "vlsp",
                         "homepage": "http://community.elgg.org/profile/vlsp",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.7"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "saiken/group_contact_list",
+                "homepage": "",
+                "version": "1.1",
+                "type": "elgg-plugin",
+                "description": "A plugin that lets you add and remove users from the Group Manager added to the Admin screen.",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/673293",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Doc_McAlister",
+                        "homepage": "http://community.elgg.org/profile/saiken",
                         "role": "Maintainer"
                     }
                 ],
@@ -33213,7 +34313,7 @@
         {
             "type": "package",
             "package": {
-                "name": "gillie/DA_elgg-1.7.2",
+                "name": "gillie/DA_elgg",
                 "homepage": "http://www.perjensen-online.dk/",
                 "version": "1.7.2",
                 "type": "elgg-plugin",
@@ -35401,6 +36501,31 @@
                     {
                         "name": "Keith Fowler",
                         "homepage": "http://community.elgg.org/profile/keith.fowler",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.7"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "jricher/url_getter",
+                "homepage": "",
+                "version": "0.1",
+                "type": "elgg-plugin",
+                "description": "Simple CURL-based URL fetch library with some XML parsing",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/521643",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Justin Richer",
+                        "homepage": "http://community.elgg.org/profile/jricher",
                         "role": "Maintainer"
                     }
                 ],
@@ -38388,7 +39513,7 @@
         {
             "type": "package",
             "package": {
-                "name": "ewinslow/plugin_manager-1.3",
+                "name": "ewinslow/plugin_manager",
                 "homepage": "http://code.google.com/p/elgg-ewinslow",
                 "version": "1.3",
                 "type": "elgg-plugin",
@@ -38538,7 +39663,7 @@
         {
             "type": "package",
             "package": {
-                "name": "ewinslow/minify-0.2",
+                "name": "ewinslow/minify",
                 "homepage": "http://github.com/ewinslow/elgg-minify",
                 "version": "0.2",
                 "type": "elgg-plugin",
@@ -38832,6 +39957,31 @@
                 "require": {
                     "composer/installers": ">=1.0.8",
                     "elgg/elgg": "~1.6"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "dramirez/fb_socialplugins",
+                "homepage": "http://github.com/lowfill/fb_socialplugins",
+                "version": "0.1-alpha",
+                "type": "elgg-plugin",
+                "description": "Elgg views to wrap the functionalities of the Facebook's social plugins",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/485673",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Diego Andr\u00e9s Ram\u00edrez Arag\u00f3n",
+                        "homepage": "http://community.elgg.org/profile/dramirez",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.7"
                 }
             }
         },
@@ -39163,6 +40313,31 @@
         {
             "type": "package",
             "package": {
+                "name": "dramirez/libform_utils",
+                "homepage": "http://github.com/lowfill/libform_utils",
+                "version": "0.1",
+                "type": "elgg-plugin",
+                "description": "Battery of improvements to form related views.",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/481135",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Diego Andr\u00e9s Ram\u00edrez Arag\u00f3n",
+                        "homepage": "http://community.elgg.org/profile/dramirez",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.7"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
                 "name": "alfirus/fisheye_menu",
                 "homepage": "",
                 "version": "1.0",
@@ -39257,6 +40432,31 @@
                 "require": {
                     "composer/installers": ">=1.0.8",
                     "elgg/elgg": "~1.7"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "liri2/group_moderate",
+                "homepage": "http://www.elggmarket.com/pg/socialcommerce/lirantal/read/421/group-moderate-pro",
+                "version": "1.1",
+                "type": "elgg-plugin",
+                "description": "",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/479494",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Liran Tal",
+                        "homepage": "http://community.elgg.org/profile/liri2",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.6"
                 }
             }
         },
@@ -39507,6 +40707,106 @@
                 "require": {
                     "composer/installers": ">=1.0.8",
                     "elgg/elgg": "~1.7"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "jricher/qrcode",
+                "homepage": "",
+                "version": "0.2",
+                "type": "elgg-plugin",
+                "description": "QR Code (2D Barcode) generator plugin for Elgg",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/482742",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Justin Richer",
+                        "homepage": "http://community.elgg.org/profile/jricher",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.7"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "jricher/qrcode",
+                "homepage": "",
+                "version": "0.1",
+                "type": "elgg-plugin",
+                "description": "QR Code (2D Barcode) generator plugin for Elgg",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/475145",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Justin Richer",
+                        "homepage": "http://community.elgg.org/profile/jricher",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.7"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "jricher/thickbox",
+                "homepage": "http://jquery.com/demo/thickbox/",
+                "version": "0.1",
+                "type": "elgg-plugin",
+                "description": "Thickbox Javascript Library",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/475141",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Justin Richer",
+                        "homepage": "http://community.elgg.org/profile/jricher",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.7"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "liri2/notificationsplus",
+                "homepage": "",
+                "version": "1.1",
+                "type": "elgg-plugin",
+                "description": "A plugin that will ask the user to adjust his notifications settings when joining a group",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/474244",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Liran Tal",
+                        "homepage": "http://community.elgg.org/profile/liri2",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.5"
                 }
             }
         },
@@ -42113,6 +43413,56 @@
         {
             "type": "package",
             "package": {
+                "name": "jricher/identicon",
+                "homepage": "",
+                "version": "0.2",
+                "type": "elgg-plugin",
+                "description": "Automatically-generated site icons using the identicon algorithm.",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/507544",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Justin Richer",
+                        "homepage": "http://community.elgg.org/profile/jricher",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.7"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "jricher/identicon",
+                "homepage": "",
+                "version": "0.1",
+                "type": "elgg-plugin",
+                "description": "Automatically-generated site icons using the identicon algorithm.",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/398717",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Justin Richer",
+                        "homepage": "http://community.elgg.org/profile/jricher",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.6"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
                 "name": "webgalli/webgall_adsense_analytics",
                 "homepage": "http://webgalli.com/pg/groups/786/google-adsense-and-analytics-for-elgg/",
                 "version": "2",
@@ -42326,6 +43676,31 @@
                     {
                         "name": "naweko",
                         "homepage": "http://community.elgg.org/profile/naweko",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.6"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "deds/mnet_support",
+                "homepage": "",
+                "version": "0.2",
+                "type": "elgg-plugin",
+                "description": "Plugin to allow Elgg to participate in Moodle Networks (MNET)",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/391629",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Deds Castillo",
+                        "homepage": "http://community.elgg.org/profile/deds",
                         "role": "Maintainer"
                     }
                 ],
@@ -42613,6 +43988,31 @@
         {
             "type": "package",
             "package": {
+                "name": "liri2/autocomplete_facebook_style",
+                "homepage": "",
+                "version": "1",
+                "type": "elgg-plugin",
+                "description": "An autocomplete input view for users/friends entities",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/388385",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Liran Tal",
+                        "homepage": "http://community.elgg.org/profile/liri2",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.5"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
                 "name": "markharding93/mobile_1.8",
                 "homepage": "https://github.com/markharding/mobile",
                 "version": "1.8",
@@ -42851,6 +44251,81 @@
                     {
                         "name": "Marcus Povey",
                         "homepage": "http://community.elgg.org/profile/marcus",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.6"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "jricher/mediawiki",
+                "homepage": "",
+                "version": "0.3",
+                "type": "elgg-plugin",
+                "description": "View rendered MediaWiki content within your Elgg site.",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/521644",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Justin Richer",
+                        "homepage": "http://community.elgg.org/profile/jricher",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.7"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "jricher/mediawiki",
+                "homepage": "",
+                "version": "0.2",
+                "type": "elgg-plugin",
+                "description": "View rendered MediaWiki content within your Elgg site.",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/385918",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Justin Richer",
+                        "homepage": "http://community.elgg.org/profile/jricher",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.6"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "jricher/mediawiki",
+                "homepage": "",
+                "version": "0.1",
+                "type": "elgg-plugin",
+                "description": "View rendered MediaWiki content within your Elgg site.",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/382518",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Justin Richer",
+                        "homepage": "http://community.elgg.org/profile/jricher",
                         "role": "Maintainer"
                     }
                 ],
@@ -44488,6 +45963,56 @@
         {
             "type": "package",
             "package": {
+                "name": "Cubert/myfriends",
+                "homepage": "",
+                "version": "1.1",
+                "type": "elgg-plugin",
+                "description": null,
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/333756",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Cubert",
+                        "homepage": "http://community.elgg.org/profile/Cubert",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.6"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "Cubert/myfriends",
+                "homepage": "",
+                "version": "1.0",
+                "type": "elgg-plugin",
+                "description": null,
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/333749",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Cubert",
+                        "homepage": "http://community.elgg.org/profile/Cubert",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.6"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
                 "name": "jayadeep/directlinks",
                 "homepage": "",
                 "version": "1.0",
@@ -44746,6 +46271,31 @@
                 "dist": {
                     "url": "http://community.elgg.org/plugins/download/335813",
                     "type": "zip"
+                },
+                "authors": [
+                    {
+                        "name": "Miguel Rodr\u00edguez P\u00e9rez",
+                        "homepage": "http://community.elgg.org/profile/openid_138622",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.6"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "openid_138622/groups-from-members",
+                "homepage": "",
+                "version": "0.1",
+                "type": "elgg-plugin",
+                "description": "Lets select group members from all site users",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/330403",
+                    "type": "tar"
                 },
                 "authors": [
                     {
@@ -46508,6 +48058,31 @@
         {
             "type": "package",
             "package": {
+                "name": "openid_298229/testing",
+                "homepage": "",
+                "version": "0.4",
+                "type": "elgg-plugin",
+                "description": "Facilitates running PHPUnit unit tests in the Elgg environment",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/305027",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Timothy Wall",
+                        "homepage": "http://community.elgg.org/profile/openid_298229",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.6"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
                 "name": "FxNion/admin_profile_fields",
                 "homepage": "",
                 "version": "1.0",
@@ -46577,6 +48152,206 @@
                 "require": {
                     "composer/installers": ">=1.0.8",
                     "elgg/elgg": "~1.6"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "liri2/recommendations",
+                "homepage": "",
+                "version": "1.3",
+                "type": "elgg-plugin",
+                "description": "",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/761145",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Liran Tal",
+                        "homepage": "http://community.elgg.org/profile/liri2",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.8"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "liri2/recommendations",
+                "homepage": "",
+                "version": "1.3",
+                "type": "elgg-plugin",
+                "description": "",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/761124",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Liran Tal",
+                        "homepage": "http://community.elgg.org/profile/liri2",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.8"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "liri2/recommendations",
+                "homepage": "",
+                "version": "1.3",
+                "type": "elgg-plugin",
+                "description": "",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/761117",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Liran Tal",
+                        "homepage": "http://community.elgg.org/profile/liri2",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.8"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "liri2/recommendations",
+                "homepage": "",
+                "version": "1.3",
+                "type": "elgg-plugin",
+                "description": "",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/761006",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Liran Tal",
+                        "homepage": "http://community.elgg.org/profile/liri2",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.8"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "liri2/recommendations",
+                "homepage": "",
+                "version": "1.3",
+                "type": "elgg-plugin",
+                "description": "",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/760603",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Liran Tal",
+                        "homepage": "http://community.elgg.org/profile/liri2",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.7"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "liri2/recommendations",
+                "homepage": "",
+                "version": "1.2",
+                "type": "elgg-plugin",
+                "description": "",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/320411",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Liran Tal",
+                        "homepage": "http://community.elgg.org/profile/liri2",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.5"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "liri2/recommendations",
+                "homepage": "",
+                "version": "1.1",
+                "type": "elgg-plugin",
+                "description": "",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/303176",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Liran Tal",
+                        "homepage": "http://community.elgg.org/profile/liri2",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.6"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "liri2/recommendations",
+                "homepage": "",
+                "version": "1.0",
+                "type": "elgg-plugin",
+                "description": "",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/299877",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Liran Tal",
+                        "homepage": "http://community.elgg.org/profile/liri2",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.5"
                 }
             }
         },
@@ -47608,7 +49383,7 @@
         {
             "type": "package",
             "package": {
-                "name": "jeabakker/group_custom_layout-3.1",
+                "name": "jeabakker/group_custom_layout",
                 "homepage": "http://www.coldtrick.com",
                 "version": "3.1",
                 "type": "elgg-plugin",
@@ -47877,6 +49652,31 @@
                 "require": {
                     "composer/installers": ">=1.0.8",
                     "elgg/elgg": "~1.5"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "dramirez/gmaplocationfield",
+                "homepage": "",
+                "version": "2.0",
+                "type": "elgg-plugin",
+                "description": "Overwrites the fields named \"location\" by a form that let you choose your location using gmaps.",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/269763",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Diego Andr\u00e9s Ram\u00edrez Arag\u00f3n",
+                        "homepage": "http://community.elgg.org/profile/dramirez",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.6"
                 }
             }
         },
@@ -48646,6 +50446,31 @@
                     {
                         "name": "Fusion",
                         "homepage": "http://community.elgg.org/profile/ddfusion",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.5"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "dimentox/messages",
+                "homepage": "",
+                "version": "1.0",
+                "type": "elgg-plugin",
+                "description": "Plugs in real world email to the messages plugin elggusername@domain.com",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/249317",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Dimentox",
+                        "homepage": "http://community.elgg.org/profile/dimentox",
                         "role": "Maintainer"
                     }
                 ],
@@ -49433,6 +51258,56 @@
         {
             "type": "package",
             "package": {
+                "name": "openid_2268/testing",
+                "homepage": "",
+                "version": "0.2",
+                "type": "elgg-plugin",
+                "description": "Unit Test Runner (PHPUnit)",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/242446",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Timothy Wall",
+                        "homepage": "http://community.elgg.org/profile/openid_2268",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.5"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "openid_2268/testing",
+                "homepage": "",
+                "version": "0.1",
+                "type": "elgg-plugin",
+                "description": "Unit Test Runner (PHPUnit)",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/239734",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Timothy Wall",
+                        "homepage": "http://community.elgg.org/profile/openid_2268",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.5"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
                 "name": "ddfusion/yahoo",
                 "homepage": "",
                 "version": "1.1",
@@ -49610,6 +51485,431 @@
             "package": {
                 "name": "jricher/oauth",
                 "homepage": "",
+                "version": "0.9.7",
+                "type": "elgg-plugin",
+                "description": "",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/852086",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Justin Richer",
+                        "homepage": "http://community.elgg.org/profile/jricher",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.7"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "jricher/oauth",
+                "homepage": "",
+                "version": "0.9.6",
+                "type": "elgg-plugin",
+                "description": "",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/846499",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Justin Richer",
+                        "homepage": "http://community.elgg.org/profile/jricher",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.7"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "jricher/oauth",
+                "homepage": "",
+                "version": "0.9.5",
+                "type": "elgg-plugin",
+                "description": "",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/846124",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Justin Richer",
+                        "homepage": "http://community.elgg.org/profile/jricher",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.7"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "jricher/oauth",
+                "homepage": "",
+                "version": "0.9.4",
+                "type": "elgg-plugin",
+                "description": "",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/845654",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Justin Richer",
+                        "homepage": "http://community.elgg.org/profile/jricher",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.7"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "jricher/oauth",
+                "homepage": "",
+                "version": "0.10.1",
+                "type": "elgg-plugin",
+                "description": "",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/816560",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Justin Richer",
+                        "homepage": "http://community.elgg.org/profile/jricher",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.8"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "jricher/oauth",
+                "homepage": "",
+                "version": "0.10.0",
+                "type": "elgg-plugin",
+                "description": "",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/810844",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Justin Richer",
+                        "homepage": "http://community.elgg.org/profile/jricher",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.8"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "jricher/oauth",
+                "homepage": "",
+                "version": "0.9.3",
+                "type": "elgg-plugin",
+                "description": "",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/800650",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Justin Richer",
+                        "homepage": "http://community.elgg.org/profile/jricher",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.7"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "jricher/oauth",
+                "homepage": "",
+                "version": "0.9.2",
+                "type": "elgg-plugin",
+                "description": "",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/785105",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Justin Richer",
+                        "homepage": "http://community.elgg.org/profile/jricher",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.7"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "jricher/oauth",
+                "homepage": "",
+                "version": "0.9.1",
+                "type": "elgg-plugin",
+                "description": "",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/694696",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Justin Richer",
+                        "homepage": "http://community.elgg.org/profile/jricher",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.7"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "jricher/oauth",
+                "homepage": "",
+                "version": "0.9",
+                "type": "elgg-plugin",
+                "description": "",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/676597",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Justin Richer",
+                        "homepage": "http://community.elgg.org/profile/jricher",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.7"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "jricher/oauth",
+                "homepage": "",
+                "version": "0.8",
+                "type": "elgg-plugin",
+                "description": "",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/675939",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Justin Richer",
+                        "homepage": "http://community.elgg.org/profile/jricher",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.7"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "jricher/oauth",
+                "homepage": "",
+                "version": "0.7",
+                "type": "elgg-plugin",
+                "description": "",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/600393",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Justin Richer",
+                        "homepage": "http://community.elgg.org/profile/jricher",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.7"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "jricher/oauth",
+                "homepage": "",
+                "version": "0.6",
+                "type": "elgg-plugin",
+                "description": "",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/538247",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Justin Richer",
+                        "homepage": "http://community.elgg.org/profile/jricher",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.7"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "jricher/oauth",
+                "homepage": "",
+                "version": "0.5",
+                "type": "elgg-plugin",
+                "description": "",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/521625",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Justin Richer",
+                        "homepage": "http://community.elgg.org/profile/jricher",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.7"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "jricher/oauth",
+                "homepage": "",
+                "version": "0.4",
+                "type": "elgg-plugin",
+                "description": "",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/482722",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Justin Richer",
+                        "homepage": "http://community.elgg.org/profile/jricher",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.7"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "jricher/oauth",
+                "homepage": "",
+                "version": "0.3.1",
+                "type": "elgg-plugin",
+                "description": "",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/382434",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Justin Richer",
+                        "homepage": "http://community.elgg.org/profile/jricher",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.6"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "jricher/oauth",
+                "homepage": "",
+                "version": "0.3",
+                "type": "elgg-plugin",
+                "description": "",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/379090",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Justin Richer",
+                        "homepage": "http://community.elgg.org/profile/jricher",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.6"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "jricher/oauth",
+                "homepage": "",
                 "version": "0.2",
                 "type": "elgg-plugin",
                 "description": "",
@@ -49627,6 +51927,31 @@
                 "require": {
                     "composer/installers": ">=1.0.8",
                     "elgg/elgg": "~1.5"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "jricher/wavatar",
+                "homepage": "",
+                "version": "0.2",
+                "type": "elgg-plugin",
+                "description": "User icons from generated with the wavatar algorithm.",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/507543",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Justin Richer",
+                        "homepage": "http://community.elgg.org/profile/jricher",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.7"
                 }
             }
         },
@@ -50996,6 +53321,31 @@
                     {
                         "name": "Jeroen Dalsem",
                         "homepage": "http://community.elgg.org/profile/jdalsem",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.5"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "cronopio/directory",
+                "homepage": "",
+                "version": "0.5",
+                "type": "elgg-plugin",
+                "description": "List of users sort like a Directory, with pagination",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/157251",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Daniel Aristizabal Romero",
+                        "homepage": "http://community.elgg.org/profile/cronopio",
                         "role": "Maintainer"
                     }
                 ],
@@ -54431,6 +56781,81 @@
         {
             "type": "package",
             "package": {
+                "name": "johnm/mass_mailouts",
+                "homepage": "",
+                "version": "1.0",
+                "type": "elgg-plugin",
+                "description": "Admin can send all users an email",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/77559",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "johno",
+                        "homepage": "http://community.elgg.org/profile/johnm",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.5"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "johnm/groupprayer",
+                "homepage": "",
+                "version": "1.5",
+                "type": "elgg-plugin",
+                "description": "prayer plugin for groups",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/76858",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "johno",
+                        "homepage": "http://community.elgg.org/profile/johnm",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.5"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "johnm/prayer",
+                "homepage": "",
+                "version": "1.5",
+                "type": "elgg-plugin",
+                "description": "prayer plugin for groups",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/76857",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "johno",
+                        "homepage": "http://community.elgg.org/profile/johnm",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.5"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
                 "name": "pedroprez/roundedprofile",
                 "homepage": "",
                 "version": "1.2",
@@ -54899,6 +57324,79 @@
                 "require": {
                     "composer/installers": ">=1.0.8",
                     "elgg/elgg": "~1.5"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "johnm/externalpages",
+                "homepage": "",
+                "version": "1.02",
+                "type": "elgg-plugin",
+                "description": "Spotlight mod for external pages with public/private spotlights",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/72693",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "johno",
+                        "homepage": "http://community.elgg.org/profile/johnm",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.5"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "johnm/externalpages",
+                "homepage": "",
+                "version": "1.01",
+                "type": "elgg-plugin",
+                "description": "Spotlight mod for external pages with public/private spotlights",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/70605",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "johno",
+                        "homepage": "http://community.elgg.org/profile/johnm",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "johnm/externalpages",
+                "homepage": "",
+                "version": "1.0",
+                "type": "elgg-plugin",
+                "description": "Spotlight mod for external pages with public/private spotlights",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/70591",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "johno",
+                        "homepage": "http://community.elgg.org/profile/johnm",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8"
                 }
             }
         },
@@ -56322,6 +58820,56 @@
         {
             "type": "package",
             "package": {
+                "name": "dramirez/itemicon",
+                "homepage": "http://github.com/lowfill/itemicon",
+                "version": "2.0",
+                "type": "elgg-plugin",
+                "description": "Let you assign icons for your blog (or another object) posts",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/480549",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Diego Andr\u00e9s Ram\u00edrez Arag\u00f3n",
+                        "homepage": "http://community.elgg.org/profile/dramirez",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.7"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "dramirez/itemicon",
+                "homepage": "http://github.com/lowfill/itemicon",
+                "version": "1.0",
+                "type": "elgg-plugin",
+                "description": "Let you assign icons for your blog (or another object) posts",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/50933",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Diego Andr\u00e9s Ram\u00edrez Arag\u00f3n",
+                        "homepage": "http://community.elgg.org/profile/dramirez",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.5"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
                 "name": "tidypics/tidypics",
                 "homepage": "",
                 "version": "1.7.3",
@@ -56695,6 +59243,30 @@
         {
             "type": "package",
             "package": {
+                "name": "shellcode/siteaccess",
+                "homepage": "",
+                "version": "1.9",
+                "type": "elgg-plugin",
+                "description": "Account activation/invitation/administration/walledgarden/email validation/coppa/captcha",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/50313",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "shellcode",
+                        "homepage": "http://community.elgg.org/profile/shellcode",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
                 "name": "jdalsem/customstyle",
                 "homepage": "",
                 "version": "1.0.1",
@@ -57014,6 +59586,102 @@
         {
             "type": "package",
             "package": {
+                "name": "Twister/recentdiscussions",
+                "homepage": "",
+                "version": "1.1",
+                "type": "elgg-plugin",
+                "description": null,
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/41522",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Twister",
+                        "homepage": "http://community.elgg.org/profile/Twister",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "Twister/recentdiscussions",
+                "homepage": "",
+                "version": "1.0",
+                "type": "elgg-plugin",
+                "description": null,
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/41339",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Twister",
+                        "homepage": "http://community.elgg.org/profile/Twister",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "Twister/tagactivity",
+                "homepage": "",
+                "version": "1.0",
+                "type": "elgg-plugin",
+                "description": "A small plugin for following the activity of a tag",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/41280",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Twister",
+                        "homepage": "http://community.elgg.org/profile/Twister",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "Twister/activemembers",
+                "homepage": "",
+                "version": "1.0",
+                "type": "elgg-plugin",
+                "description": "A plugin to display the most active members",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/41274",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Twister",
+                        "homepage": "http://community.elgg.org/profile/Twister",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
                 "name": "itsLenny/tablesorter",
                 "homepage": "",
                 "version": "0.5",
@@ -57134,7 +59802,7 @@
         {
             "type": "package",
             "package": {
-                "name": "andrew/ATvideo-1.0",
+                "name": "andrew/ATvideo",
                 "homepage": "",
                 "version": "1.0",
                 "type": "elgg-plugin",
@@ -57147,6 +59815,54 @@
                     {
                         "name": "Andrew Tibbetts",
                         "homepage": "http://community.elgg.org/profile/andrew",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "Twister/followers",
+                "homepage": "",
+                "version": "1.01",
+                "type": "elgg-plugin",
+                "description": null,
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/38952",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Twister",
+                        "homepage": "http://community.elgg.org/profile/Twister",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "Twister/followers",
+                "homepage": "",
+                "version": "1.0",
+                "type": "elgg-plugin",
+                "description": null,
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/37874",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Twister",
+                        "homepage": "http://community.elgg.org/profile/Twister",
                         "role": "Maintainer"
                     }
                 ],
@@ -57963,6 +60679,153 @@
         {
             "type": "package",
             "package": {
+                "name": "dramirez/blogextended",
+                "homepage": "http://github.com/lowfill/blogextended",
+                "version": "1.4.1",
+                "type": "elgg-plugin",
+                "description": "Extends blog functionality with types, group posts and icons overwrite",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/480551",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Diego Andr\u00e9s Ram\u00edrez Arag\u00f3n",
+                        "homepage": "http://community.elgg.org/profile/dramirez",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.7"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "dramirez/blogextended",
+                "homepage": "http://github.com/lowfill/blogextended",
+                "version": "1.4",
+                "type": "elgg-plugin",
+                "description": "Extends blog functionality with types, group posts and icons overwrite",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/480533",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Diego Andr\u00e9s Ram\u00edrez Arag\u00f3n",
+                        "homepage": "http://community.elgg.org/profile/dramirez",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.7"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "dramirez/blogextended",
+                "homepage": "http://github.com/lowfill/blogextended",
+                "version": "1.3.1",
+                "type": "elgg-plugin",
+                "description": "Extends blog functionality with types, group posts and icons overwrite",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/50930",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Diego Andr\u00e9s Ram\u00edrez Arag\u00f3n",
+                        "homepage": "http://community.elgg.org/profile/dramirez",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.5"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "dramirez/blogextended",
+                "homepage": "http://github.com/lowfill/blogextended",
+                "version": "1.3",
+                "type": "elgg-plugin",
+                "description": "Extends blog functionality with types, group posts and icons overwrite",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/42766",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Diego Andr\u00e9s Ram\u00edrez Arag\u00f3n",
+                        "homepage": "http://community.elgg.org/profile/dramirez",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "dramirez/blogextended",
+                "homepage": "http://github.com/lowfill/blogextended",
+                "version": "1.2",
+                "type": "elgg-plugin",
+                "description": "Extends blog functionality with types, group posts and icons overwrite",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/21924",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Diego Andr\u00e9s Ram\u00edrez Arag\u00f3n",
+                        "homepage": "http://community.elgg.org/profile/dramirez",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "rolando/check_requirements",
+                "homepage": "",
+                "version": "0.5",
+                "type": "elgg-plugin",
+                "description": "Checks if your installation has common requirements for Elgg",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/21814",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Rolando Espinoza La fuente",
+                        "homepage": "http://community.elgg.org/profile/rolando",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
                 "name": "mleifer/arXiv",
                 "homepage": "",
                 "version": "0.1",
@@ -58135,6 +60998,127 @@
         {
             "type": "package",
             "package": {
+                "name": "Stahli/chat",
+                "homepage": "http://xilef-software.e8u.de/en/projects/scripts/elggchat",
+                "version": "1.7.0",
+                "type": "elgg-plugin",
+                "description": "Integrates an Ajax Chat",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/490974",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Felix Stahlberg",
+                        "homepage": "http://community.elgg.org/profile/Stahli",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.7"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "Stahli/chat",
+                "homepage": "http://xilef-software.e8u.de/en/projects/scripts/elggchat",
+                "version": "1.2.3",
+                "type": "elgg-plugin",
+                "description": "Integrates an Ajax Chat",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/21653",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Felix Stahlberg",
+                        "homepage": "http://community.elgg.org/profile/Stahli",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "Stahli/chat",
+                "homepage": "http://xilef-software.e8u.de/en/projects/scripts/elggchat",
+                "version": "1.2.2",
+                "type": "elgg-plugin",
+                "description": "Integrates an Ajax Chat",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/21646",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Felix Stahlberg",
+                        "homepage": "http://community.elgg.org/profile/Stahli",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "Stahli/chat",
+                "homepage": "http://xilef-software.e8u.de/en/projects/scripts/elggchat",
+                "version": "1.2.1",
+                "type": "elgg-plugin",
+                "description": "Integrates an Ajax Chat",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/21191",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Felix Stahlberg",
+                        "homepage": "http://community.elgg.org/profile/Stahli",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "Stahli/chat",
+                "homepage": "http://xilef-software.e8u.de/en/projects/scripts/elggchat",
+                "version": "1.2",
+                "type": "elgg-plugin",
+                "description": "Integrates an Ajax Chat",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/20599",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Felix Stahlberg",
+                        "homepage": "http://community.elgg.org/profile/Stahli",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
                 "name": "rsrobbins/amazon",
                 "homepage": "",
                 "version": "1.6",
@@ -58179,6 +61163,31 @@
                 "require": {
                     "composer/installers": ">=1.0.8",
                     "elgg/elgg": "~1.5"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "pedroprez/loginbyemail",
+                "homepage": "",
+                "version": "0.2",
+                "type": "elgg-plugin",
+                "description": "This plugin allows you to login by using an email address, so you won't need to use an username anymore.",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/390197",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Pedro Prez",
+                        "homepage": "http://community.elgg.org/profile/pedroprez",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.7"
                 }
             }
         },
@@ -58392,6 +61401,30 @@
                     {
                         "name": "SGr33n",
                         "homepage": "http://community.elgg.org/profile/SGr33n",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "dramirez/highlightcontent",
+                "homepage": "",
+                "version": "1.0",
+                "type": "elgg-plugin",
+                "description": "Let you mark an object as highlighted and provides a view to show it up",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/19558",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Diego Andr\u00e9s Ram\u00edrez Arag\u00f3n",
+                        "homepage": "http://community.elgg.org/profile/dramirez",
                         "role": "Maintainer"
                     }
                 ],
@@ -58994,6 +62027,30 @@
                     {
                         "name": "HiTo81",
                         "homepage": "http://community.elgg.org/profile/HiTo81",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "simplyfat/file",
+                "homepage": "",
+                "version": "1.0",
+                "type": "elgg-plugin",
+                "description": "This enables users to upload multiple files at once using a flash tool.",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/17933",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "simplyfat",
+                        "homepage": "http://community.elgg.org/profile/simplyfat",
                         "role": "Maintainer"
                     }
                 ],
@@ -59764,6 +62821,54 @@
         {
             "type": "package",
             "package": {
+                "name": "dramirez/messagesextended",
+                "homepage": "",
+                "version": "1.0",
+                "type": "elgg-plugin",
+                "description": null,
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/16427",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Diego Andr\u00e9s Ram\u00edrez Arag\u00f3n",
+                        "homepage": "http://community.elgg.org/profile/dramirez",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "dramirez/grouplayout",
+                "homepage": "",
+                "version": "1.0",
+                "type": "elgg-plugin",
+                "description": null,
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/16401",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Diego Andr\u00e9s Ram\u00edrez Arag\u00f3n",
+                        "homepage": "http://community.elgg.org/profile/dramirez",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
                 "name": "jimbob/customsearch",
                 "homepage": "",
                 "version": "0.3",
@@ -60422,6 +63527,78 @@
         {
             "type": "package",
             "package": {
+                "name": "brett.profitt/expirationdate",
+                "homepage": "",
+                "version": "1.0",
+                "type": "elgg-plugin",
+                "description": "Provides automated deletion of entities.",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/13949",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Brett",
+                        "homepage": "http://community.elgg.org/profile/brett.profitt",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "openid_2268/thematic",
+                "homepage": "",
+                "version": "0.3",
+                "type": "elgg-plugin",
+                "description": "Select your site theme without enabling/disabling/reordering plugins",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/54681",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Timothy Wall",
+                        "homepage": "http://community.elgg.org/profile/openid_2268",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "openid_2268/thematic",
+                "homepage": "",
+                "version": "0.1",
+                "type": "elgg-plugin",
+                "description": "Select your site theme without enabling/disabling/reordering plugins",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/12939",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Timothy Wall",
+                        "homepage": "http://community.elgg.org/profile/openid_2268",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
                 "name": "Simox/theme_christmas",
                 "homepage": "",
                 "version": "1.1",
@@ -60435,6 +63612,127 @@
                     {
                         "name": "Simon ST",
                         "homepage": "http://community.elgg.org/profile/Simox",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "dramirez/groupextended",
+                "homepage": "",
+                "version": "2.5",
+                "type": "elgg-plugin",
+                "description": "Extends the group plugin with some nice extra features!",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/45724",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Diego Andr\u00e9s Ram\u00edrez Arag\u00f3n",
+                        "homepage": "http://community.elgg.org/profile/dramirez",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8",
+                    "elgg/elgg": "~1.5"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "dramirez/groupextended",
+                "homepage": "",
+                "version": "2.2",
+                "type": "elgg-plugin",
+                "description": "Extends the group plugin with some nice extra features!",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/16399",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Diego Andr\u00e9s Ram\u00edrez Arag\u00f3n",
+                        "homepage": "http://community.elgg.org/profile/dramirez",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "dramirez/groupextended",
+                "homepage": "",
+                "version": "2.1",
+                "type": "elgg-plugin",
+                "description": "Extends the group plugin with some nice extra features!",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/16106",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Diego Andr\u00e9s Ram\u00edrez Arag\u00f3n",
+                        "homepage": "http://community.elgg.org/profile/dramirez",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "dramirez/groupextended",
+                "homepage": "",
+                "version": "2.0",
+                "type": "elgg-plugin",
+                "description": "Extends the group plugin with some nice extra features!",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/12770",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Diego Andr\u00e9s Ram\u00edrez Arag\u00f3n",
+                        "homepage": "http://community.elgg.org/profile/dramirez",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "dramirez/groupextended",
+                "homepage": "",
+                "version": "1.0",
+                "type": "elgg-plugin",
+                "description": "Extends the group plugin with some nice extra features!",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/7086",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Diego Andr\u00e9s Ram\u00edrez Arag\u00f3n",
+                        "homepage": "http://community.elgg.org/profile/dramirez",
                         "role": "Maintainer"
                     }
                 ],
@@ -60526,6 +63824,30 @@
                 "dist": {
                     "url": "http://community.elgg.org/plugins/download/14531",
                     "type": "zip"
+                },
+                "authors": [
+                    {
+                        "name": "Brett",
+                        "homepage": "http://community.elgg.org/profile/brett.profitt",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "brett.profitt/uncaptcha",
+                "homepage": "",
+                "version": "1.2",
+                "type": "elgg-plugin",
+                "description": "Provides spam protection by using a reverse captcha",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/13948",
+                    "type": "tar"
                 },
                 "authors": [
                     {
@@ -60652,6 +63974,30 @@
                     {
                         "name": "Cash",
                         "homepage": "http://community.elgg.org/profile/costelloc",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "mmontesp/rate",
+                "homepage": "",
+                "version": "0.1",
+                "type": "elgg-plugin",
+                "description": null,
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/12000",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Miguel Montes",
+                        "homepage": "http://community.elgg.org/profile/mmontesp",
                         "role": "Maintainer"
                     }
                 ],
@@ -61071,6 +64417,30 @@
         {
             "type": "package",
             "package": {
+                "name": "ivan/groupblog",
+                "homepage": "",
+                "version": "1.0",
+                "type": "elgg-plugin",
+                "description": null,
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/9230",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Ivan Verg\u00e9s",
+                        "homepage": "http://community.elgg.org/profile/ivan",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
                 "name": "buggedcom/404",
                 "homepage": "",
                 "version": "1.0.0",
@@ -61181,6 +64551,102 @@
                     {
                         "name": "Pete Harris",
                         "homepage": "http://community.elgg.org/profile/pete",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "openid_2268/google-map",
+                "homepage": "",
+                "version": "0.9.2",
+                "type": "elgg-plugin",
+                "description": null,
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/64746",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Timothy Wall",
+                        "homepage": "http://community.elgg.org/profile/openid_2268",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "openid_2268/google-map",
+                "homepage": "",
+                "version": "0.9",
+                "type": "elgg-plugin",
+                "description": null,
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/28778",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Timothy Wall",
+                        "homepage": "http://community.elgg.org/profile/openid_2268",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "openid_2268/google-map",
+                "homepage": "",
+                "version": "0.8",
+                "type": "elgg-plugin",
+                "description": null,
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/16169",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Timothy Wall",
+                        "homepage": "http://community.elgg.org/profile/openid_2268",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "openid_2268/google-map",
+                "homepage": "",
+                "version": "0.3",
+                "type": "elgg-plugin",
+                "description": null,
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/4730",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Timothy Wall",
+                        "homepage": "http://community.elgg.org/profile/openid_2268",
                         "role": "Maintainer"
                     }
                 ],
@@ -61350,6 +64816,78 @@
                     {
                         "name": "Maximus Marius",
                         "homepage": "http://community.elgg.org/profile/mariuszekpl",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "mmontesp/wlist",
+                "homepage": "",
+                "version": "0.3",
+                "type": "elgg-plugin",
+                "description": null,
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/10771",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Miguel Montes",
+                        "homepage": "http://community.elgg.org/profile/mmontesp",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "mmontesp/wlist",
+                "homepage": "",
+                "version": "0.2",
+                "type": "elgg-plugin",
+                "description": null,
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/5919",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Miguel Montes",
+                        "homepage": "http://community.elgg.org/profile/mmontesp",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "mmontesp/wlist",
+                "homepage": "",
+                "version": "0.1",
+                "type": "elgg-plugin",
+                "description": null,
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/5710",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Miguel Montes",
+                        "homepage": "http://community.elgg.org/profile/mmontesp",
                         "role": "Maintainer"
                     }
                 ],
@@ -61738,6 +65276,78 @@
                     {
                         "name": "wutaide",
                         "homepage": "http://community.elgg.org/profile/wutaide",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "dramirez/blogwidget",
+                "homepage": "",
+                "version": "0.3",
+                "type": "elgg-plugin",
+                "description": "",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/7167",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Diego Andr\u00e9s Ram\u00edrez Arag\u00f3n",
+                        "homepage": "http://community.elgg.org/profile/dramirez",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "dramirez/blogwidget",
+                "homepage": "",
+                "version": "0.2",
+                "type": "elgg-plugin",
+                "description": "",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/7087",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Diego Andr\u00e9s Ram\u00edrez Arag\u00f3n",
+                        "homepage": "http://community.elgg.org/profile/dramirez",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "dramirez/blogwidget",
+                "homepage": "",
+                "version": "0.1",
+                "type": "elgg-plugin",
+                "description": "",
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/3664",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Diego Andr\u00e9s Ram\u00edrez Arag\u00f3n",
+                        "homepage": "http://community.elgg.org/profile/dramirez",
                         "role": "Maintainer"
                     }
                 ],
@@ -62170,6 +65780,30 @@
                     {
                         "name": "steven",
                         "homepage": "http://community.elgg.org/profile/steven",
+                        "role": "Maintainer"
+                    }
+                ],
+                "require": {
+                    "composer/installers": ">=1.0.8"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "Jade/default_widgets",
+                "homepage": "",
+                "version": "1.1",
+                "type": "elgg-plugin",
+                "description": null,
+                "dist": {
+                    "url": "http://community.elgg.org/plugins/download/734",
+                    "type": "tar"
+                },
+                "authors": [
+                    {
+                        "name": "Jade",
+                        "homepage": "http://community.elgg.org/profile/Jade",
                         "role": "Maintainer"
                     }
                 ],
